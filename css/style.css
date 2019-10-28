@@ -1,0 +1,4273 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Playfair Display", serif;
+  background-image: linear-gradient(#009fd6, #f70708);
+  max-width: 100%;
+}
+
+/* Header Css */
+
+header {
+  min-height: 150px;
+  background-color: #009fd6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  padding-left: 20px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+.mob-wrapper {
+  display: none;
+}
+
+/* Navbar Css */
+
+nav {
+  font-size: 18px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav h2 {
+  margin: 0px;
+}
+
+.control1,
+.control2,
+.control3,
+.control4,
+i h2 {
+  margin-right: 20px;
+}
+
+.controllers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.controllers i {
+  font-size: 50px;
+  margin-top: 20px;
+  margin-right: 0;
+  transition: transform 1s;
+}
+
+/*  */
+.controllers i:hover {
+  color: red;
+  transform: scale(1.2);
+}
+
+.control2 i {
+  margin-left: 10px;
+}
+.control3 i {
+  margin-left: 25px;
+}
+
+.control4 i {
+  margin-left: 10px;
+}
+
+/* Center Website Image */
+
+main {
+  background-size: cover;
+  background-position: top;
+}
+
+main img {
+  width: 100%;
+}
+
+main img:hover {
+  transition: none;
+  transform: none;
+}
+
+/* Console Section */
+
+.Console-title {
+  text-align: center;
+  font-size: 35px;
+  background-color: white;
+  margin-top: -4px;
+  padding-top: 20px;
+}
+
+.Console-title h1 {
+  margin: 0;
+  /* padding: 30px 150px 0; */
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+.Console-title p {
+  font-size: 25px;
+  margin: 0;
+  padding: 30px 150px 0;
+  font-family: "Playfair Display", serif;
+}
+
+.handhelds {
+  display: flex;
+  margin: 0px 0;
+  justify-content: space-between;
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.nin-switch {
+  width: 30%;
+  min-height: 100px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.nin-switch img:hover {
+  transition: transform 0s;
+  transform: scale(1.2);
+}
+
+.nin-2ds {
+  width: 30%;
+  min-height: 100px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.nin-2ds img:hover {
+  transition: transform 0s;
+  transform: scale(1.2);
+}
+
+.nin-3ds {
+  width: 30%;
+  min-height: 100px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.nin-3ds img:hover {
+  transition: transform 0s;
+  transform: scale(1.2);
+}
+
+.nin-switch p {
+  padding-bottom: 40px;
+}
+
+.nin-2ds p {
+  padding-bottom: 40px;
+}
+
+.nin-3ds p {
+  padding-bottom: 40px;
+}
+
+.nin-switch a {
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+  padding: 15px 25px;
+}
+
+.nin-2ds a {
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+  padding: 15px 25px;
+}
+
+.nin-3ds a {
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+  padding: 15px 25px;
+}
+
+/* Game Console Section */
+.Games-title {
+  padding-top: 20px;
+  background-image: linear-gradient(#017648, #092a55);
+  min-height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  flex: 1;
+  min-height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+
+div .link img:hover {
+  transition: none;
+  transform: none;
+}
+
+.bestsellers-heading {
+  min-height: 300px;
+  padding-top: 100px;
+  padding-right: 100px;
+  padding-left: 100px;
+  text-align: center;
+  color: white;
+}
+
+.bestsellers-heading h1 {
+  font-size: 50px;
+}
+
+.bestsellers {
+  min-height: 400px;
+  background-image: linear-gradient(#092a55, #017648);
+  display: flex;
+  justify-content: space-between;
+}
+
+.game1 {
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  width: 10%;
+  text-align: center;
+}
+
+.game1,
+h2,
+h3,
+.p {
+  margin: 0;
+  color: white;
+}
+.game1,
+.h2 {
+  padding-top: 30px;
+}
+
+.game1,
+.p {
+  padding-bottom: 40px;
+}
+.game1 a {
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+  padding: 10px 35px;
+}
+
+.game1 img:hover {
+  transition: transform 0s;
+  transform: scale(1.2);
+}
+
+.game2 {
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  width: 10%;
+  text-align: center;
+}
+
+.game2,
+h2,
+h3,
+.p {
+  margin: 0;
+  color: white;
+}
+.game2,
+.h2 {
+  padding-top: 30px;
+}
+
+.game2,
+.p {
+  padding-bottom: 40px;
+}
+.game2 a {
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+  padding: 10px 35px;
+}
+
+.game2 img:hover {
+  transition: transform 0s;
+  transform: scale(1.2);
+}
+
+.game3 {
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  width: 10%;
+  text-align: center;
+}
+
+.game3,
+h2,
+h3,
+.p {
+  margin: 0;
+  color: white;
+}
+.game3,
+.h2 {
+  padding-top: 30px;
+}
+
+.game3,
+.p {
+  padding-bottom: 40px;
+}
+.game3 a {
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+  padding: 10px 35px;
+}
+
+.game3 img:hover {
+  transition: transform 0s;
+  transform: scale(1.2);
+}
+
+.game4 {
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  width: 10%;
+  text-align: center;
+}
+
+.game4,
+h2,
+h3,
+.p {
+  margin: 0;
+  color: white;
+}
+.game4,
+.h2 {
+  padding-top: 30px;
+}
+
+.game4,
+.p {
+  padding-bottom: 40px;
+}
+.game4 a {
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+  padding: 10px 35px;
+}
+
+.game4 img:hover {
+  transition: transform 0s;
+  transform: scale(1.2);
+}
+
+/* Pokemon Legendary Game */
+.pokemon-container {
+  position: relative;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  /* object-fit:cover; */
+}
+
+/* Pokemon Header Section */
+.pokemon-header {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.pokemon-header h1 {
+  color: white;
+  text-align: center;
+  font-size: 41.6px;
+}
+
+/* Pokemon Monster Section */
+
+.left-monster {
+  position: absolute;
+  top: 14%;
+  bottom: 0;
+  left: 0;
+  right: 50%;
+  background-image: url(/img/home-char-sword.png);
+  background-position: center;
+  background-size: cover;
+  width: 43%;
+  height: 85%;
+}
+
+.left-monster-strings {
+  position: absolute;
+  top: 155px;
+  bottom: 0;
+  left: 0%;
+  right: 0;
+}
+
+.right-monster-strings {
+  position: absolute;
+  top: 140px;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+}
+
+/* .right-monster-strings:hover{
+      transition: transform 0s;
+      transform: scale(0);
+    } */
+
+.right-monster {
+  position: absolute;
+  top: 17%;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  background-image: url(/img/home-char-shield.png);
+  background-position: center;
+  background-size: cover;
+  width: 43%;
+  height: 82%;
+  padding-left: 50px;
+}
+
+/* Pokemon Monster Navbar */
+.monster-navbar {
+  position: relative;
+  top: -4px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 0px;
+  width: 100%;
+  background: linear-gradient(
+    60deg,
+    #f79533,
+    #f37055,
+    #ef4e7b,
+    #a166ab,
+    #5073b8,
+    #1098ad,
+    #07b39b,
+    #6fba82
+  );
+}
+
+.navbar-images {
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-monster-navimage {
+  min-height: 100px;
+  margin-top: 10px;
+}
+
+.left-monster-navimage {
+  min-height: 100px;
+  margin-top: 10px;
+  background-image: url(/img/logo-pokemon-sword.png);
+  background-size: cover;
+  background-position: center;
+  width: 120px;
+  height: 110px;
+}
+
+.navbar-text {
+  min-height: 100px;
+  width: 60%;
+}
+
+.navbar-text a {
+  color: white;
+}
+
+.left-monsterbutton {
+  float: left;
+  text-decoration: none;
+  background-image: linear-gradient(#2b4b86, #af4043);
+  border: 1px solid #092a55;
+  padding: 10px 40px;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+
+.right-monsterbutton {
+  float: right;
+  text-decoration: none;
+  background-image: linear-gradient(#2b4b86, #af4043);
+  border: 1px solid #092a55;
+  padding: 10px 40px;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+
+.navbar-text h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.right-monster-navimage {
+  min-height: 100px;
+  margin-top: 10px;
+  background-image: url(/img/logo-pokemon-shield.png);
+  background-size: cover;
+  background-position: center;
+  width: 120px;
+  height: 110px;
+}
+
+/* Gift Shop Section */
+.giftshop {
+  /* background-color:green; */
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  min-height: 300px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: -4px;
+}
+
+.lugi-image {
+  /* background-color: green; */
+  min-height: 300px;
+  width: 30%;
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lugi-character img {
+  width: 226px;
+  height: 200px;
+
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 2s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.lugi-pipe {
+  /* background-color: red; */
+  background-image: url(/Giftshop/pipe.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+}
+.lugi-text {
+  margin-bottom: 40px;
+}
+
+.lugi-text p {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  color: black;
+}
+
+.lugi-text a {
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  text-decoration: none;
+  /* border: 1px solid #84fab0; */
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin: 0 41px 0;
+}
+
+.turtle-image {
+  /* background-color: white; */
+  min-height: 300px;
+  width: 30%;
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.turtle-character img {
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 2s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.turtle-bottom {
+  /* width:73px;
+  height:72.656px; */
+}
+
+.giftshop-heading {
+  font-size: 25px;
+  color: rgb(165, 11, 106);
+  text-align: center;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  min-height: 200px;
+  margin: -40px 0;
+  padding-top: 30px;
+}
+
+.turtle-text {
+  margin-bottom: 40px;
+}
+
+.turtle-text p {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  color: black;
+}
+
+.turtle-text a {
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  text-decoration: none;
+  /* border: 1px solid #84fab0; */
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+
+.mario-image {
+  /* background-color:yellow; */
+  min-height: 300px;
+  width: 30%;
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mario-character img {
+  width: 226px;
+  height: 200px;
+
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 2s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.mario-pipe {
+  /* background-color: red; */
+  background-image: url(/Giftshop/pipe.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+}
+
+.mario-text {
+  margin-bottom: 40px;
+}
+
+.mario-text p {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  color: black;
+}
+
+.mario-text a {
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  text-decoration: none;
+  /* border: 1px solid #84fab0; */
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-left: 40px;
+}
+
+/* Footer Section */
+
+footer {
+  background-color: #434343;
+  height: 100px;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  width: 100%;
+  padding-top: 30px;
+  margin: 0;
+}
+
+/* Shop Code Section */
+
+/*BEGINNING GAME CARTIAGE SECTION */
+
+/* Games Section Heading */
+.games-header {
+  padding: 0 150px;
+}
+
+.bestsellers-heading {
+  min-height: 300px;
+  padding-top: 100px;
+  padding-right: 100px;
+  padding-left: 100px;
+  text-align: center;
+  color: white;
+}
+
+.bestsellers-heading h1 {
+  font-size: 50px;
+}
+
+/* Game Cartiages Section */
+.games-container {
+  padding-top: 20px;
+  min-height: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.game1 {
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  width: 25%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.game1 h2 {
+  margin: 0;
+  color: white;
+}
+
+.game1 h3 {
+  color: white;
+}
+
+.game1 .h2 {
+  padding-top: 30px;
+}
+
+.game1 .p {
+  margin: 0;
+  padding-bottom: 40px;
+  color: white;
+}
+.game1 a {
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+  padding: 10px 35px;
+}
+
+.game1 img:hover {
+  transition: transform 0s;
+  transform: scale(1.2);
+}
+
+.game2 {
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  width: 25%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.game2 h2 {
+  margin: 0;
+  color: white;
+}
+
+.game2 h3 {
+  color: white;
+}
+
+.game2 .h2 {
+  padding-top: 30px;
+}
+
+.game2 .p {
+  margin: 0;
+  padding-bottom: 40px;
+  color: white;
+}
+.game2 a {
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+  padding: 10px 35px;
+}
+
+.game2 img:hover {
+  transition: transform 0s;
+  transform: scale(1.2);
+}
+
+.game3 {
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  width: 25%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.game3 h2 {
+  margin: 0;
+  color: white;
+}
+
+.game3 h3 {
+  color: white;
+}
+
+.game3 .h2 {
+  padding-top: 30px;
+}
+
+.game3 .p {
+  margin: 0;
+  padding-bottom: 40px;
+  color: white;
+}
+.game3 a {
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+  padding: 10px 35px;
+}
+
+.game3 img:hover {
+  transition: transform 0s;
+  transform: scale(1.2);
+}
+
+.game4 {
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  width: 25%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.game4 h2 {
+  margin: 0;
+  color: white;
+}
+
+.game4 h3 {
+  color: white;
+}
+
+.game4 .h2 {
+  padding-top: 30px;
+}
+
+.game4 .p {
+  margin: 0;
+  padding-bottom: 40px;
+  color: white;
+}
+.game4 a {
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+  padding: 10px 35px;
+}
+
+.game4 img:hover {
+  transition: transform 0s;
+  transform: scale(1.2);
+}
+/*ENDING GAME CARTIAGE SECTION */
+
+/* GAME CONSOLE CONTAINER */
+
+.console-container {
+  background-color: white;
+}
+
+.games-heading {
+  color: #484848;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding-top: 100px;
+}
+
+/*START GAME CONSOLE HANDHELD 1 */
+
+.console1-container {
+  min-height: 300px;
+  /* background-color:pink; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.console1 {
+  min-height: 300px;
+  /* background-color:rgb(0, 0, 0); */
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.console1-button1 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 0 5px 5px 3px;
+}
+
+.console1-button1 a img {
+  width: 150px;
+  height: 100px;
+}
+
+.console1-button2 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 0 5px 5px 3px;
+}
+
+.console1-button2 a img {
+  width: 150px;
+  height: 100px;
+}
+
+.console1-button3 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 0 5px 5px 3px;
+}
+
+.console1-button3 a img {
+  width: 150px;
+  height: 100px;
+}
+
+.console1-button4 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 0 5px 5px 3px;
+}
+
+.console1-button4 a img {
+  width: 150px;
+  height: 100px;
+}
+
+/* Right Side Console1 */
+.console1-text {
+  min-height: 300px;
+  /* background-color:blue; */
+  width: 45%;
+}
+
+.console1-text p {
+  padding: 20px 0;
+}
+
+.console1-text a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  background-image: linear-gradient(#4ab7d8, #e70011);
+  padding: 10px 60px;
+  border-radius: 0px 60px;
+}
+
+/*END GAME CONSOLE HANDHELD 1 */
+
+/*GAME CONSOLE HANDHELD 2 */
+
+.console2-container {
+  min-height: 300px;
+  /* background-color:pink; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.console2 {
+  min-height: 300px;
+  /* background-color:rgb(0, 0, 0); */
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.console2-button1 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 0 5px 5px 3px;
+}
+
+.console2-button1 a img {
+  width: 150px;
+  height: 100px;
+}
+
+.console2-button2 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 0 5px 5px 3px;
+}
+
+.console2-button2 a img {
+  width: 150px;
+  height: 100px;
+}
+
+.console2-button3 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 0 5px 5px 3px;
+}
+
+.console2-button3 a img {
+  width: 150px;
+  height: 100px;
+}
+
+.console2-button4 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 0 5px 5px 3px;
+}
+
+.console2-button4 a img {
+  width: 150px;
+  height: 100px;
+}
+
+/* Right Side Console2 */
+.console2-text {
+  min-height: 300px;
+  /* background-color:blue; */
+  width: 45%;
+}
+
+.console2-text p {
+  padding: 20px 0;
+}
+
+.console2-text a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  background-image: linear-gradient(#020202, #757575);
+  padding: 10px 60px;
+  border-radius: 0px 60px;
+}
+
+/*END GAME CONSOLE HANDHELD 2 */
+
+/*GAME CONSOLE HANDHELD 3 */
+
+.console3-container {
+  min-height: 300px;
+  /* background-color:pink; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.console3 {
+  min-height: 300px;
+  /* background-color:rgb(0, 0, 0); */
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.console3-button1 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 0 5px 5px 3px;
+}
+
+.console3-button1 a img {
+  width: 150px;
+  height: 100px;
+}
+
+.console3-button2 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 0 5px 5px 3px;
+}
+
+.console3-button2 a img {
+  width: 150px;
+  height: 100px;
+}
+
+.console3-button3 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 0 5px 5px 3px;
+}
+
+.console3-button3 a img {
+  width: 150px;
+  height: 100px;
+}
+
+.console3-button4 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 0 5px 5px 3px;
+}
+
+.console3-button4 a img {
+  width: 150px;
+  height: 100px;
+}
+
+/* Right Side Console2 */
+.console3-text {
+  min-height: 300px;
+  /* background-color:blue; */
+  width: 45%;
+}
+
+.console3-text p {
+  padding: 20px 0;
+}
+
+.console3-text a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  background-image: linear-gradient(#ff0000, #2600ff);
+  padding: 10px 60px;
+  border-radius: 0px 60px;
+}
+
+/*END GAME CONSOLE HANDHELD 3 */
+
+/*GAME CONSOLE HANDHELD 4 */
+
+.console4-container {
+  min-height: 300px;
+  /* background-color:pink; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.console4 {
+  min-height: 300px;
+  /* background-color:rgb(0, 0, 0); */
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.console4-button1 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 0 5px 5px 3px;
+}
+
+.console4-button1 a img {
+  width: 150px;
+  height: 100px;
+}
+
+.console4-button2 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 0 5px 5px 3px;
+}
+
+.console4-button2 a img {
+  width: 150px;
+  height: 100px;
+}
+
+.console4-button3 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 0 5px 5px 3px;
+}
+
+.console4-button3 a img {
+  width: 150px;
+  height: 100px;
+}
+
+.console4-button4 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 0 5px 5px 3px;
+}
+
+.console4-button4 a img {
+  width: 150px;
+  height: 100px;
+}
+
+/* Right Side Console2 */
+.console4-text {
+  min-height: 300px;
+  /* background-color:blue; */
+  width: 45%;
+}
+
+.console4-text p {
+  padding: 20px 0;
+}
+
+.console4-text a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  background-image: linear-gradient(#000000, #fbff00);
+  padding: 10px 60px;
+  border-radius: 0px 60px;
+}
+
+/*END GAME CONSOLE HANDHELD 4 */
+
+/*GAME CONSOLE HANDHELD 5 */
+
+.console5-container {
+  min-height: 300px;
+  /* background-color:pink; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.console5 {
+  min-height: 300px;
+  /* background-color: rgb(0, 0, 0); */
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.console5 img {
+  width: 554px;
+  height: 369px;
+}
+
+.console5-button1 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 50px 5px 5px 3px;
+}
+
+.console5-button1 a img {
+  width: 149px;
+  height: 100px;
+}
+
+.console5-button2 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 50px 5px 5px 3px;
+}
+
+.console5-button2 a img {
+  width: 149px;
+  height: 100px;
+}
+
+.console5-button3 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 50px 5px 5px 3px;
+}
+
+.console5-button3 a img {
+  width: 150px;
+  height: 100px;
+}
+
+.console5-button4 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 50px 5px 5px 3px;
+}
+
+.console5-button4 a img {
+  width: 149px;
+  height: 100px;
+}
+
+/* Right Side Console2 */
+.console5-text {
+  min-height: 300px;
+  /* background-color:blue; */
+  width: 45%;
+}
+
+.console5-text p {
+  padding: 20px 0;
+}
+
+.console5-text a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  background-image: linear-gradient(#fffdfd, #00ccff);
+  padding: 10px 60px;
+  border-radius: 0px 60px;
+}
+
+/*END GAME CONSOLE HANDHELD 5 */
+
+/*GAME CONSOLE HANDHELD 6 */
+
+.console6-container {
+  min-height: 300px;
+  /* background-color:pink; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.console6 {
+  min-height: 300px;
+  /* background-color:rgb(0, 0, 0); */
+  width: 47%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.console6 img {
+  width: 500px;
+  height: 250px;
+}
+
+.console6-single-image img {
+  margin-left: 70px;
+}
+
+.console6-button1 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 50px 5px 5px 3px;
+}
+
+.console6-button1 a img {
+  width: 175px;
+  height: 100px;
+}
+
+.console6-button2 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 50px 5px 5px 3px;
+}
+
+.console6-button2 a img {
+  width: 160px;
+  height: 100px;
+}
+
+.console6-button3 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 50px 5px 5px 3px;
+}
+
+.console6-button3 a img {
+  width: 150px;
+  height: 100px;
+}
+
+.console6-button4 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 50px 5px 5px 3px;
+}
+
+.console6-button4 a img {
+  width: 150px;
+  height: 100px;
+}
+
+/* Right Side Console2 */
+.console6-text {
+  min-height: 300px;
+  /* background-color:blue; */
+  width: 45%;
+}
+
+.console6-text p {
+  padding: 20px 0;
+}
+
+.console6-text a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  background-image: linear-gradient(#fffdfd, #3d3d3d);
+  padding: 10px 60px;
+  border-radius: 0px 60px;
+}
+
+/*END GAME CONSOLE HANDHELD 6 */
+
+/*START GAME CONSOLE HANDHELD 7 */
+
+.console7-container {
+  min-height: 300px;
+  /* background-color:pink; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.console7 {
+  min-height: 300px;
+  /* background-color:rgb(0, 0, 0); */
+  width: 42%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.console7 img {
+  width: 520px;
+  height: 320px;
+}
+
+.console7-button1 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 50px 5px 5px 3px;
+}
+
+.console7-button1 a img {
+  width: 140px;
+  height: 100px;
+}
+
+.console7-button2 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 50px 5px 5px 3px;
+}
+
+.console7-button2 a img {
+  width: 133px;
+  height: 100px;
+}
+
+.console7-button3 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 50px 5px 5px 3px;
+}
+
+.console7-button3 a img {
+  width: 150px;
+  height: 100px;
+}
+
+.console7-button4 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 50px 5px 5px 3px;
+}
+
+.console7-button4 a img {
+  width: 140px;
+  height: 100px;
+}
+
+/* Right Side Console2 */
+.console7-text {
+  min-height: 300px;
+  /* background-color:blue; */
+  width: 45%;
+}
+
+.console7-text p {
+  padding: 20px 0;
+}
+
+.console7-text a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  background-image: linear-gradient(to right, #ffffff, #f7cd57 0% 100%);
+  padding: 10px 60px;
+  border-radius: 0px 60px;
+}
+
+/*END GAME CONSOLE HANDHELD 7 */
+
+/*GAME CONSOLE HANDHELD 8 */
+
+.console8-container {
+  min-height: 300px;
+  /* background-color:pink; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.console8 {
+  min-height: 300px;
+  /* background-color:rgb(0, 0, 0); */
+  width: 52%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.console8 img {
+  width: 550px;
+  height: 369px;
+}
+
+.console8-button1 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 50px 5px 10px 10px;
+}
+
+.console8-button1 a img {
+  width: 270px;
+  height: 180px;
+}
+
+.console8-button2 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 50px 5px 10px 10px;
+}
+
+.console8-button2 a img {
+  width: 270px;
+  height: 180px;
+}
+
+/* Right Side Console2 */
+.console8-text {
+  min-height: 300px;
+  /* background-color:blue; */
+  width: 45%;
+}
+
+.console8-text p {
+  padding: 20px 0;
+}
+
+.console8-text a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  background-image: linear-gradient(#87c0ed, #be286b);
+  padding: 10px 60px;
+  border-radius: 0px 60px;
+}
+
+/*END GAME CONSOLE HANDHELD 8 */
+
+/*START NINTENDO ACCESSORIES BORDER */
+
+.game-console-border {
+  border-top: 1px solid #727272;
+  text-align: center;
+  color: #484848;
+}
+/* END NINTENDO ACCESSORIES BORDER */
+
+/*START ACCESSORY 1 SECTION 1  */
+
+.accessory1-container {
+  min-height: 300px;
+  /* background-color:pink; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.accessory1 {
+  min-height: 300px;
+  /* background-color:rgb(0, 0, 0); */
+  width: 48%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.accessory1 img {
+  width: 550px;
+  height: 369px;
+}
+
+/* Right Side Console2 */
+.accessory1-text {
+  min-height: 300px;
+  /* background-color:blue; */
+  width: 45%;
+}
+
+.accessory1-text p {
+  padding: 20px 0;
+}
+
+.accessory1-text a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  padding: 10px 60px;
+  border-radius: 0px 60px;
+}
+
+/*END ACCESSORY 1 SECTION 1  */
+
+/*START ACCESSORY 2 SECTION 2  */
+
+.accessory2-container {
+  min-height: 300px;
+  /* background-color:pink; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.accessory2 {
+  min-height: 300px;
+  /* background-color:rgb(0, 0, 0); */
+  width: 48%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.accessory2 a img {
+  width: 550px;
+  height: 369px;
+}
+
+/* Right Side Console2 */
+.accessory2-text {
+  min-height: 300px;
+  /* background-color:blue; */
+  width: 45%;
+}
+
+.accessory2-text p {
+  padding: 20px 0;
+}
+
+.accessory2-text a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  padding: 10px 60px;
+  border-radius: 0px 60px;
+}
+
+/*END ACCESSORY 2 SEECTION 2  */
+
+/*START ACCESSORY 3 SECTION 3  */
+
+.accessory3-container {
+  min-height: 300px;
+  /* background-color:pink; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.accessory3 {
+  min-height: 300px;
+  /* background-color:rgb(0, 0, 0); */
+  width: 48%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.accessory3 a img {
+  width: 550px;
+  height: 369px;
+}
+
+/* Right Side Console2 */
+.accessory3-text {
+  min-height: 300px;
+  /* background-color:blue; */
+  width: 45%;
+}
+
+.accessory3-text p {
+  padding: 20px 0;
+}
+
+.accessory3-text a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  padding: 10px 60px;
+  border-radius: 0px 60px;
+}
+
+/*END ACCESSORY 3 SEECTION 3  */
+
+/*START ACCESSORY 4 SECTION 4  */
+
+.accessory4-container {
+  min-height: 300px;
+  /* background-color:pink; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.accessory4 {
+  min-height: 300px;
+  /* background-color:rgb(0, 0, 0); */
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.accessory4 img {
+  width: 520px;
+  height: 320px;
+}
+
+.accessory4-button1 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 50px 5px 5px 15px;
+}
+
+.accessory4-button1 a img {
+  width: 175px;
+  height: 100px;
+}
+
+.accessory4-button2 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 50px 5px 5px 3px;
+}
+
+.accessory4-button2 a img {
+  width: 160px;
+  height: 100px;
+}
+
+.accessory4-button3 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 50px 5px 5px 3px;
+}
+
+.accessory4-button3 a img {
+  width: 160px;
+  height: 100px;
+}
+
+/* Right Side Console2 */
+.accessory4-text {
+  min-height: 300px;
+  /* background-color:blue; */
+  width: 45%;
+}
+
+.accessory4-text p {
+  padding: 20px 0;
+}
+
+.accessory4-text a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  padding: 10px 60px;
+  border-radius: 0px 60px;
+}
+
+/*END ACCESSORY 4 SEECTION 4  */
+
+/*START ACCESSORY 5 SEECTION 5  */
+
+.accessory5-container {
+  min-height: 300px;
+  /* background-color:pink; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.accessory5 {
+  min-height: 300px;
+  /* background-color:rgb(0, 0, 0); */
+  width: 44%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.accessory5 img {
+  width: 520px;
+  height: 320px;
+}
+
+.accessory5-button1 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 50px 5px 5px 3px;
+}
+
+.accessory5-button1 a img {
+  width: 170px;
+  height: 100px;
+}
+
+.accessory5-button2 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 50px 5px 5px 3px;
+}
+
+.accessory5-button2 a img {
+  width: 140px;
+  height: 100px;
+}
+
+.accessory5-button3 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 50px 5px 5px 3px;
+}
+
+.accessory5-button3 a img {
+  width: 140px;
+  height: 100px;
+}
+
+.accessory5-button4 {
+  /* background-color:yellow; */
+  min-height: 50px;
+  border: 1px solid #727272;
+  margin: 50px 5px 5px 3px;
+}
+
+.accessory5-button4 a img {
+  width: 143px;
+  height: 100px;
+}
+
+/* Right Side Console2 */
+.accessory5-text {
+  min-height: 300px;
+  /* background-color:blue; */
+  width: 45%;
+}
+
+.accessory5-text p {
+  padding: 20px 0;
+}
+
+.accessory5-text a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  padding: 10px 60px;
+  border-radius: 0px 60px;
+}
+
+/*END ACCESSORY 5 SEECTION 5  */
+
+/*START ACCESSORY 6 SECTION 6  */
+
+.accessory6-container {
+  min-height: 300px;
+  /* background-color:pink; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.accessory6 {
+  min-height: 300px;
+  /* background-color:rgb(0, 0, 0); */
+  width: 48%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.accessory6 img{
+  width:550px; 
+  height:369px;
+}
+
+/* Right Side Console2 */
+.accessory6-text {
+  min-height: 300px;
+  /* background-color:blue; */
+  width: 45%;
+}
+
+.accessory6-text p {
+  padding: 20px 0;
+}
+
+.accessory6-text a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  padding: 10px 60px;
+  border-radius: 0px 60px;
+}
+
+/*END ACCESSORY 6 SECTION 6  */
+
+/*START ACCESSORY 7 SECTION 7  */
+
+.accessory7-container {
+  min-height: 300px;
+  /* background-color:pink; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.accessory7 {
+  min-height: 300px;
+  /* background-color:rgb(0, 0, 0); */
+  width: 48%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Right Side Console2 */
+.accessory7-text {
+  min-height: 300px;
+  /* background-color:blue; */
+  width: 45%;
+}
+
+.accessory7-text p {
+  padding: 20px 0;
+}
+
+.accessory7-text a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  padding: 10px 60px;
+  border-radius: 0px 60px;
+}
+
+/*END ACCESSORY 7 SECTION 7  */
+
+/*START ACCESSORY 8 SECTION 8  */
+
+.accessory8-container {
+  min-height: 300px;
+  /* background-color:pink; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.accessory8 {
+  min-height: 300px;
+  /* background-color:rgb(0, 0, 0); */
+  width: 48%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.accessory8 img{
+  width:550px; 
+  height:369px;
+}
+
+/* Right Side Console2 */
+.accessory8-text {
+  min-height: 300px;
+  /* background-color:blue; */
+  width: 45%;
+}
+
+.accessory8-text p {
+  padding: 20px 0;
+}
+
+.accessory8-text a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  padding: 10px 60px;
+  border-radius: 0px 60px;
+}
+
+/*END ACCESSORY 8 SECTION 8  */
+
+/*START ACCESSORY 8 SECTION 8  */
+
+.accessory9-container {
+  min-height: 300px;
+  /* background-color:pink; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.accessory9 {
+  min-height: 300px;
+  /* background-color:rgb(0, 0, 0); */
+  width: 48%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Right Side Console2 */
+.accessory9-text {
+  min-height: 300px;
+  /* background-color:blue; */
+  width: 45%;
+}
+
+.accessory9 img{
+  width:550px; 
+  height:369px;
+}
+
+.accessory9-text p {
+  padding: 20px 0;
+}
+
+.accessory9-text a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  padding: 10px 60px;
+  border-radius: 0px 60px;
+}
+
+/*END ACCESSORY 9 SECTION 9  */
+
+/* Start red border directing to contact page */
+
+.contact-container {
+  /* background-color:pink; */
+  display: flex;
+}
+
+.contact-image {
+  position: absolute;
+  transform: translateY(-30%);
+  left: 15%;
+  width: 50%;
+}
+
+.contact-image img {
+  width: 476px;
+  height: 246px;
+}
+
+.contact-border {
+  background-color: red;
+  margin-bottom: 100px;
+  background-color: #e60012;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+.contact-border h1 {
+  text-align: right;
+  padding-right: 30px;
+}
+
+.contact-border a {
+  text-decoration: none;
+  color: white;
+}
+
+/* End red border directing to contact page */
+
+/*ENDING GAME CONSOLE SECTION */
+
+/* CONTACT PAGE */
+
+/* Start Contact Heading Title */
+
+.contact-header {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.contact-header p {
+  padding: 0 250px 50px;
+  font-size: 25px;
+}
+
+/* End Contact Heading Title */
+
+/* Start of Forms Inputs */
+
+input[type="text"] {
+  font-weight: 700;
+  display: block;
+  width: 150px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  padding: 10px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type="text"]:focus {
+  width: 100%;
+}
+
+/* End of Forms Inputs */
+
+/*Start Firstname Section */
+
+.firstname {
+  margin: 0 0 20px 20px;
+}
+
+/* End Firstname Section */
+
+/* Start Lastname Section */
+
+.lastname {
+  margin: 0 0 20px 20px;
+}
+
+/* End Lastname Section */
+
+/* Start Phone Number Section */
+
+.phonenumber {
+  margin: 0 0 20px 20px;
+}
+
+/* End Phone Number Section */
+
+/* Start Email Section */
+
+.email {
+  margin: 0 0 20px 20px;
+}
+
+/* End Email Section */
+
+/* Start Message Section */
+
+.textarea {
+  margin: 0 0 20px 20px;
+}
+
+/* End Message Section */
+
+/*Start Message Section  */
+
+textarea {
+  font-weight: 700;
+  display: block;
+  width: 150px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  height: 150px;
+  overflow: hidden;
+}
+
+textarea:focus {
+  width: 100%;
+}
+
+/*End Message Section  */
+
+/*Start Submit Button Section */
+
+.submit-button {
+  margin: 40px 0 40px 20px;
+}
+
+.submit-button a {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  padding: 5px 15px;
+}
+
+/* Desktop */
+@media (max-width: 1024px) {
+  .mob-wrapper {
+    display: none;
+  }
+
+  .turtle-bottom img {
+    width: 80px;
+  }
+  /* Games Tablet Section */
+  .games-header {
+    padding: 0;
+  }
+
+  .console1 img {
+    width: 500px;
+    height: 355px;
+  }
+
+  .console1-button1 {
+    margin-left: auto;
+    margin-bottom: 20px;
+  }
+
+  .console1-button2 {
+    margin-left: auto;
+    margin-bottom: 20px;
+  }
+
+  .console1-button3 {
+    margin-left: auto;
+  }
+
+  .console1-button4 {
+    margin-left: auto;
+  }
+
+  .console2 img {
+    width: 500px;
+    height: 355px;
+  }
+
+  .console2-button1 {
+    margin-left: auto;
+    margin-bottom: 20px;
+  }
+
+  .console2-button2 {
+    margin-left: auto;
+    margin-bottom: 20px;
+  }
+
+  .console2-button3 {
+    margin-left: auto;
+  }
+
+  .console2-button4 {
+    margin-left: auto;
+  }
+
+  .console3 img {
+    width: 500px;
+    height: 355px;
+  }
+
+  .console3-button1 {
+    margin-left: auto;
+    margin-bottom: 20px;
+  }
+
+  .console3-button2 {
+    margin-left: auto;
+    margin-bottom: 20px;
+  }
+
+  .console3-button3 {
+    margin-left: auto;
+  }
+
+  .console3-button4 {
+    margin-left: auto;
+  }
+
+  .console4 img {
+    width: 500px;
+    height: 355px;
+  }
+
+  .console4-button1 {
+    margin-left: auto;
+    margin-bottom: 20px;
+  }
+
+  .console4-button2 {
+    margin-left: auto;
+    margin-bottom: 20px;
+  }
+
+  .console4-button3 {
+    margin-left: auto;
+  }
+
+  .console4-button4 {
+    margin-left: auto;
+  }
+
+  .console5 {
+    width: 45%;
+  }
+
+  .console5 img {
+    margin: 0 10px;
+    width: 470px;
+    height: 300px;
+  }
+
+  .console5-button1 {
+    margin: 50px 0 20px auto;
+  }
+
+  .console5-button1 a img {
+    width: 175px;
+    height: 100px;
+  }
+
+  .console5-button2 {
+    margin: 50px 0 20px auto;
+  }
+
+  .console5-button2 a img {
+    width: 175px;
+    height: 100px;
+  }
+
+  .console5-button3 {
+    margin: 0 0 50px auto;
+  }
+
+  .console5-button3 a img {
+    width: 175px;
+    height: 100px;
+  }
+
+  .console5-button4 {
+    margin: 0 0 50px auto;
+  }
+
+  .console5-button4 img {
+    width: 177px;
+  }
+
+  .console5-button4 a img {
+    width: 175px;
+    height: 100px;
+  }
+
+  .console6 {
+    width: 45%;
+  }
+
+  .console6 img {
+    width: 400px;
+    height: 250px;
+  }
+
+  .console6-single-image img {
+    margin-left: 70px;
+  }
+
+  .console6-button1 {
+    margin: 50px 0 20px auto;
+  }
+
+  .console6-button1 a img {
+    width: 150px;
+    height: 100px;
+  }
+
+  .console6-button2 {
+    margin: 50px 0 20px auto;
+  }
+
+  .console6-button3 {
+    margin: 0 0 50px auto;
+  }
+
+  .console6-button4 {
+    margin: 0 0 50px auto;
+  }
+
+  .console6-button4 a img {
+    width: 160px;
+  }
+
+  .console7 {
+    width: 42%;
+  }
+
+  .console7 img {
+    width: 460px;
+    height: 300px;
+  }
+
+  .console7-button1 {
+    margin: 50px 0 20px auto;
+  }
+
+  .console7-button1 a img {
+    width: 150px;
+    height: 100px;
+  }
+
+  .console7-button2 {
+    margin: 50px 0 20px auto;
+  }
+
+  .console7-button2 a img {
+    width: 150px;
+    height: 100px;
+  }
+
+  .console7-button3 {
+    margin: 0px 0 20px auto;
+  }
+
+  .console7-button3 a img {
+    width: 150px;
+    height: 100px;
+  }
+
+  .console7-button4 {
+    margin: 0px 0 20px auto;
+  }
+
+  .console7-button4 a img {
+    width: 150px;
+    height: 100px;
+  }
+
+  .console8 {
+    width: 65%;
+  }
+
+  .console8 img {
+    width: 500px;
+    height: 369px;
+  }
+
+  .console8-button1 a img {
+    width: 245px;
+    height: 180px;
+  }
+
+  .console8-button2 a img {
+    width: 245px;
+    height: 180px;
+  }
+
+  /* Accessories Section */
+  .accessory4-button1 {
+    margin: 50px 0 20px auto;
+  }
+
+  .accessory4-button1 a img {
+    width: 130px;
+    height: 100px;
+  }
+
+  .accessory4-button2 a img {
+    width: 130px;
+    height: 100px;
+  }
+
+  .accessory4-button2 {
+    margin: 50px 0 20px auto;
+  }
+
+  .accessory4-button3 a img {
+    width: 130px;
+    height: 100px;
+  }
+
+  .accessory4-button3 {
+    margin: 50px 0 20px auto;
+  }
+
+  .accessory5-button1 {
+    margin: 50px 0 20px auto;
+  }
+
+  .accessory5-button1 a img {
+    width: 150px;
+    height: 100px;
+  }
+
+  .accessory5-button2 {
+    margin: 50px 0 20px auto;
+  }
+
+  .accessory5-button2 a img {
+    width: 150px;
+    height: 100px;
+  }
+
+  .accessory5-button3 {
+    margin: 0px 0 20px auto;
+  }
+
+  .accessory5-button3 a img {
+    width: 150px;
+    height: 100px;
+  }
+
+  .accessory5-button4 {
+    margin: 0px 0 20px auto;
+  }
+
+  .accessory5-button4 a img {
+    width: 150px;
+    height: 100px;
+  }
+
+  .contact-header p {
+    padding: 0 150px 50px;
+    font-size: 25px;
+}
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  body {
+    max-width: 100%;
+  }
+
+  header {
+    padding-bottom: 50px;
+  }
+
+  /* Playing around with the hamburger menu */
+  nav {
+    display: none;
+  }
+
+  .mob-wrapper {
+    display: block;
+  }
+
+  .burger-menu {
+    width: 40px;
+    padding-right: 60px;
+  }
+
+  .mob-nav {
+    display: block;
+    position: absolute;
+  }
+
+  .navbutton {
+    display: block;
+    padding: 5px 15px;
+    margin-left: -30px;
+    background-image: linear-gradient(#00c4e4, #fe6457);
+    color: white;
+    text-decoration: none;
+  }
+  /* End of the hamburger menu */
+
+  .Console-title {
+    display: block;
+  }
+
+  .Console-title p {
+    padding: 20px 10px 0;
+  }
+
+  .handhelds {
+    display: block;
+  }
+
+  .nin-switch {
+    width: 100%;
+  }
+
+  .nin-switch h2 {
+    display: none;
+  }
+
+  .nin-switch p {
+    padding: 0 150px 20px;
+  }
+
+  .nin-2ds {
+    width: 100%;
+    padding-top: 100px;
+  }
+
+  .nin-2ds h2 {
+    display: none;
+  }
+
+  .nin-2ds p {
+    padding: 0 150px 20px;
+  }
+
+  .nin-3ds {
+    width: 100%;
+    padding-top: 100px;
+  }
+
+  .nin-3ds h2 {
+    display: none;
+  }
+
+  .nin-3ds p {
+    padding: 0 150px 20px;
+  }
+
+  .Games-title {
+    display: block;
+  }
+
+  .bestsellers-heading {
+    padding: 0;
+    text-align: center;
+  }
+
+  .link {
+    display: block;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+
+  .bestsellers {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .game1 {
+    width: 50%;
+  }
+
+  .game2 {
+    width: 50%;
+  }
+
+  .game3 {
+    width: 50%;
+  }
+
+  .game4 {
+    width: 50%;
+  }
+
+  .left-monster-strings {
+    display: none;
+  }
+
+  .right-monster-strings {
+    display: none;
+  }
+
+  .left-monster {
+    display: none;
+  }
+
+  .right-monster {
+    display: none;
+  }
+
+  .left-monsterbutton {
+    margin-left: 50px;
+  }
+
+  .right-monsterbutton {
+    margin-right: 50px;
+  }
+
+  .navbar-text h1 {
+    padding-top: 50px;
+  }
+
+  .turtle-bottom img {
+    width: 73px;
+  }
+
+  .mario-image img {
+    width: 0px;
+    height: 200px;
+  }
+
+  .mario-character img {
+    width: 135px;
+    height: 200px;
+  }
+
+  /* Games Tablet Section */
+  .games-header {
+    padding: 0 50px;
+  }
+
+  /* Handhelds */
+  .console1-container {
+    display: block;
+  }
+
+  .console1 {
+    width: 100%;
+  }
+
+  .console1 img {
+    width: 100%;
+  }
+
+  .console1-button1 {
+    margin: 50px auto 20px 217px;
+  }
+
+  .console1-button2 {
+    margin: 50px 217px 20px auto;
+  }
+
+  .console1-button3 {
+    margin: 0px auto 20px 217px;
+  }
+
+  .console1-button4 {
+    margin: 0 217px 20px auto;
+  }
+
+  .console1-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .console1-text h1 {
+    padding: 0 100px;
+    text-align:center;
+  }
+
+  .console1-text p {
+   padding: 0 100px;
+   text-align:center;
+  }
+
+  .console1-text a {
+    padding: 0px 60px;
+    border-radius: 0px 60px;
+  }
+
+  .console2-container {
+    display: block;
+  }
+
+  .console2 {
+    width: 100%;
+  }
+
+  .console2 img {
+    width: 100%;
+  }
+
+  .console2-button1 {
+    margin: 50px auto 20px 217px;
+  }
+
+  .console2-button2 {
+    margin: 50px 217px 20px auto;
+  }
+
+  .console2-button3 {
+    margin: 0px auto 20px 217px;
+  }
+
+  .console2-button4 {
+    margin: 0 217px 20px auto;
+  }
+
+  .console2-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .console2-text h1 {
+    padding: 0 100px;
+    text-align:center;
+  }
+
+  .console2-text p {
+    padding: 0 100px;
+    text-align:center;
+  }
+
+  .console2-text a {
+    padding: 0px 60px;
+    border-radius: 0px 60px;
+  }
+
+  .console3-container {
+    display: block;
+  }
+
+  .console3 {
+    width: 100%;
+  }
+
+  .console3 img {
+    width: 100%;
+  }
+
+  .console3-button1 {
+    margin: 0px auto 20px 217px;
+  }
+
+  .console3-button2 {
+    margin: 50px 217px 20px auto;
+  }
+
+  .console3-button3 {
+    margin: 0px auto 20px 217px;
+  }
+
+  .console3-button4 {
+    margin: 0 217px 20px auto;
+  }
+
+  .console3-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .console3-text h1 {
+    padding: 0 100px;
+    text-align:center;
+  }
+
+  .console3-text p {
+    padding: 0 100px;
+    text-align:center;
+  }
+
+  .console3-text a {
+    padding: 10px 60px;
+    border-radius: 0px 60px;
+  }
+
+  .console4-container {
+    display: block;
+  }
+
+  .console4 {
+    width: 100%;
+  }
+
+  .console4 img {
+    width: 100%;
+  }
+
+  .console4-button1 {
+    margin: 0px auto 20px 217px;
+  }
+
+  .console4-button2 {
+    margin-left: auto;
+    margin-right: 217px;
+    margin-bottom: 20px;
+  }
+
+  .console4-button3 {
+    margin: 0px auto 20px 217px;
+  }
+
+  .console4-button4 {
+    margin-left: auto;
+    margin-right: 217px;
+    margin-bottom: 20px;
+  }
+
+  .console4-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .console4-text h1 {
+    padding: 0 100px;
+    text-align:center;
+  }
+
+  .console4-text p {
+    padding: 0 100px;
+    text-align:center;
+  }
+
+  .console4-text a {
+    padding: 10px 60px;
+    border-radius: 0px 60px;
+  }
+
+  .console5-container {
+    display: block;
+  }
+
+  .console5 {
+    width: 100%;
+  }
+
+  .console5 img {
+    width: 100%;
+    margin-left: auto;
+  }
+
+  .console5-button1 {
+    height: 100px;
+    margin: 50px auto 20px 195px;
+  }
+
+  .console5-button2 {
+    margin-left: auto;
+    margin-right: 195px;
+    margin-bottom: 20px;
+  }
+
+  .console5-button3 {
+    margin: 0px auto 20px 195px;
+  }
+
+  .console5-button4 {
+    margin-left: auto;
+    margin-right: 195px;
+    margin-bottom: 20px;
+  }
+
+  .console5-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .console5-text h1 {
+    padding: 0 50px;
+    text-align:center;
+  }
+
+  .console5-text p {
+    padding: 0 100px;
+    text-align:center;
+  }
+
+  .console5-text a {
+    padding: 0px 60px;
+    border-radius: 0px 60px;
+  }
+
+  .console6-container {
+    display: block;
+  }
+
+  .console6 {
+    width: 100%;
+  }
+
+  .console6-single-image {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .console6-single-image img {
+    width: 400px;
+    height: 200px;
+    margin-left: 0px;
+  }
+
+  .console6-button1 {
+    margin: 50px auto 20px 217px;
+  }
+
+  .console6-button2 {
+    margin: 50px 217px 20px auto;
+  }
+
+  .console6-button3 {
+    margin: 0px auto 20px 217px;
+  }
+
+  .console6-button4 {
+    margin: 0 217px 20px auto;
+  }
+
+  .console6-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .console6-text h1 {
+    padding: 0 50px;
+    text-align:center;
+  }
+
+  .console6-text p {
+    padding: 0 100px;
+    text-align:center;
+  }
+
+  .console6-text a {
+    padding: 0px 60px;
+    border-radius: 0px 60px;
+  }
+
+  .console7-container {
+    display: block;
+  }
+
+  .console7 {
+    /* background-color: black; */
+    width: 100%;
+  }
+
+  .console7 img {
+    width:100%;
+  }
+
+  .console7-button1 {
+    margin: 50px auto 20px 217px;
+  }
+
+  .console7-button2 {
+    margin-left: auto;
+    margin-right: 217px;
+    margin-bottom: 20px;
+  }
+
+  .console7-button3 {
+    margin: 0px auto 20px 217px;
+  }
+
+  .console7-button4 {
+    margin-left: auto;
+    margin-right: 217px;
+    margin-bottom: 20px;
+  }
+
+  .console7-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .console7-text h1 {
+    padding: 0 50px;
+    text-align:center;
+  }
+
+  .console7-text p {
+    padding: 0 100px;
+    text-align:center;
+  }
+
+  .console7-text a {
+    padding: 0px 60px;
+    border-radius: 0px 60px;
+  }
+
+  .console8-container {
+    display: block;
+  }
+
+  .console8 {
+    width: 100%;
+  }
+
+  .console8 img {
+    width:100%;
+  }
+
+  .console8-button1 {
+    margin: 50px auto 20px 110px;
+  }
+
+  .console8-button2 {
+    margin-left: auto;
+    margin-right: 110px;
+    margin-bottom: 20px;
+  }
+
+  .console8-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .console8-text h1 {
+    padding: 0 100px;
+    text-align:center;
+  }
+
+  .console8-text p {
+    padding: 0 100px;
+    text-align:center;
+  }
+
+  .console8-text a {
+    padding: 0px 60px;
+    border-radius: 0px 60px;
+  }
+
+  /* Accessories */
+  .accessory1-container {
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  .accessory1 img{
+    width:100%;
+  }
+
+
+  .accessory1 {
+    min-height: 300px;
+    width: 71%;
+    margin: 0 auto;
+  }
+
+  .accessory1-text {
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .accessory1-text p {
+    padding: 20px 50px;
+  }
+
+  .accessory2-container {
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  .accessory2 img{
+    width:100%;
+  }
+
+
+  .accessory2 {
+    min-height: 300px;
+    width: 71%;
+    margin: 0 auto;
+  }
+
+  .accessory2-text {
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .accessory2-text p {
+    padding: 20px 50px;
+  }
+
+  .accessory3-container {
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  .accessory3 img{
+    width:100%;
+  }
+
+
+  .accessory3 {
+    min-height: 300px;
+    width: 71%;
+    margin: 0 auto;
+  }
+
+  .accessory3-text {
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .accessory3-text p {
+    padding: 20px 50px;
+  }
+
+  .accessory4-container {
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  .accessory4 img{
+    width:100%;
+  }
+
+  .accessory4 {
+    min-height: 300px;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .accessory4-text {
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .accessory4-text p {
+    padding: 20px 50px;
+  }
+
+  .accessory5-container {
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  .accessory5 img{
+    width:100%;
+  }
+
+  .accessory5 {
+    min-height: 300px;
+    width: 68%;
+    margin: 0 auto;
+  }
+
+  .accessory5-button1 {
+    margin: 50px 0 20px auto;
+  }
+
+  .accessory5-button1 a img {
+    width: 115px;
+    height: 100px;
+  }
+
+  .accessory5-button2 {
+    margin: 50px 0 20px auto;
+  }
+
+  .accessory5-button2 a img {
+    width: 125px;
+    height: 100px;
+  }
+
+  .accessory5-button3 {
+    margin: 50px 0 20px auto;
+  }
+
+  .accessory5-button3 a img {
+    width: 115px;
+    height: 100px;
+  }
+
+  .accessory5-button4 {
+    margin: 50px 0 20px auto;
+  }
+
+  .accessory5-button4 a img {
+    width: 115px;
+    height: 100px;
+  }
+
+  .accessory5-text {
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .accessory5-text p {
+    padding: 20px 50px;
+  }
+
+  .accessory6-container {
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  .accessory6 img{
+    width:100%;
+  }
+
+
+  .accessory6 {
+    min-height: 300px;
+    width: 71%;
+    margin: 0 auto;
+  }
+
+  .accessory6-text {
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .accessory6-text p {
+    padding: 20px 50px;
+  }
+
+  .accessory8-container {
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  .accessory8 img{
+    width:100%;
+  }
+
+  .accessory8 {
+    min-height: 300px;
+    width: 71%;
+    margin: 0 auto;
+  }
+
+  .accessory8-text {
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .accessory8-text p {
+    padding: 20px 50px;
+  }
+
+  .accessory9-container {
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  .accessory9 img{
+    width:100%;
+  }
+
+  .accessory9 {
+    min-height: 300px;
+    width: 71%;
+    margin: 0 auto;
+  }
+
+  .accessory9-text {
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .accessory9-text p {
+    padding: 20px 50px;
+  }
+
+  /* Reb Border Bar On Accessory Page */
+  .contact-image {
+    position: absolute;
+    transform: translateY(-44%);
+    left: -5%;
+    width: 50%;
+  }
+
+  .contact-image img {
+    width: 400px;
+    height: 246px;
+  }
+
+  .contact-border {
+    background-color: red;
+    margin-bottom: 100px;
+    background-color: #e60012;
+    width: 1000px;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+  }
+
+  .contact-border h1 {
+    text-align: right;
+  }
+
+  .contact-header p {
+    padding: 0 100px 50px;
+    font-size: 25px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 400px) {
+  header {
+    padding-bottom: 60px;
+  }
+
+  /* Playing around with the hamburger menu */
+  nav {
+    display: none;
+  }
+
+  .mob-wrapper {
+    display: block;
+  }
+
+  .burger-menu {
+    width: 40px;
+    padding-right: 60px;
+  }
+
+  .mob-nav {
+    display: block;
+    position: absolute;
+  }
+
+  .navbutton {
+    display: block;
+    padding: 5px 15px;
+    margin-left: -30px;
+    background-image: linear-gradient(#00c4e4, #fe6457);
+    color: white;
+    text-decoration: none;
+  }
+  /* End of the hamburger menu */
+
+  .handhelds {
+    display: block;
+  }
+
+  .nin-switch p {
+    padding: 0 50px 20px;
+  }
+
+  .nin-2ds p {
+    padding: 0 50px 20px;
+  }
+
+  .nin-3ds p {
+    padding: 0 50px 20px;
+  }
+
+  .link img {
+    width: 350px;
+  }
+
+  .bestsellers {
+    display: block;
+  }
+
+  .bestsellers-heading p{
+    padding: 30px;
+  }
+
+  .game1 {
+    width: 100%;
+  }
+  .game2 {
+    width: 100%;
+  }
+  .game3 {
+    width: 100%;
+  }
+  .game4 {
+    width: 100%;
+  }
+
+  .pokemon-container h1 {
+    font-size: 20px;
+  }
+
+  .navbar-text {
+    display: block;
+  }
+
+  .navbar-text h1 {
+    font-size: 20px;
+  }
+
+  .left-monsterbutton {
+    margin: 15px 20px 10px 30px;
+  }
+
+  .right-monsterbutton {
+    margin: 15px 20px 10px 20px;
+  }
+
+  .left-monster-navimage {
+    margin-top: 30px;
+    width: 120px;
+    height: 50px;
+  }
+
+  .right-monster-navimage {
+    margin-top: 30px;
+    width: 120px;
+    height: 50px;
+  }
+
+  .giftshop {
+    display: block;
+  }
+
+  .lugi-image {
+    width: 100%;
+  }
+
+  .lugi-image:hover {
+    padding-top: 50px;
+  }
+
+  .turtle-image {
+    width: 100%;
+  }
+
+  .turtle-bottom {
+    margin-left: 23px;
+    width: 64%;
+  }
+
+  .mario-image {
+    width: 100%;
+  }
+
+  /* Game Handheld Section */
+  .games-heading {
+    padding-top: 20px;
+  }
+
+  .console1 img {
+   width:100%;
+  }
+
+  .console1 {
+    min-height: 300px;
+    width: 100%;
+    display: block;
+  }
+
+  .console1-button1 {
+    margin: 50px auto 20px auto;
+    width: 38%;
+  }
+
+  .console1-button2 {
+    margin: 0 auto 20px auto;
+    width: 38%;
+  }
+
+  .console1-button3 {
+    margin: 0px auto 20px auto;
+    width: 38%;
+  }
+
+  .console1-button4 {
+    margin: 0 auto 20px auto;
+    width: 38%;
+  }
+
+  .console1-text h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 0 50px;
+  }
+
+  .console1-text p {
+    text-align: center;
+    padding: 0 50px;
+  }
+
+  .console1-text a {
+    margin-top: 20px;
+    padding: 10px 60px;
+    border-radius: 0px 60px;
+  }
+
+  .console2 img {
+    width: 400px;
+    height: 355px;
+  }
+
+  .console2 {
+    min-height: 300px;
+    width: 100%;
+    display: block;
+  }
+
+  .console2-button1 {
+    margin: 50px auto 20px auto;
+    width: 38%;
+  }
+
+  .console2-button2 {
+    margin: 0 auto 20px auto;
+    width: 38%;
+  }
+
+  .console2-button3 {
+    margin: 0px auto 20px auto;
+    width: 38%;
+  }
+
+  .console2-button4 {
+    margin: 0 auto 20px auto;
+    width: 38%;
+  }
+
+  .console2-text h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 0 50px;
+  }
+
+  .console2-text p {
+    text-align: center;
+    padding: 0 50px;
+  }
+
+  .console2-text a {
+    margin-top: 20px;
+    padding: 10px 60px;
+    border-radius: 0px 60px;
+  }
+
+  .console3 img {
+    width: 400px;
+    height: 355px;
+  }
+
+  .console3 {
+    min-height: 300px;
+    width: 100%;
+    display: block;
+  }
+
+  .console3-button1 {
+    margin: 50px auto 20px auto;
+    width: 38%;
+  }
+
+  .console3-button2 {
+    margin: 0 auto 20px auto;
+    width: 38%;
+  }
+
+  .console3-button3 {
+    margin: 0px auto 20px auto;
+    width: 38%;
+  }
+
+  .console3-button4 {
+    margin: 0 auto 20px auto;
+    width: 38%;
+  }
+
+  .console3-text h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 0 50px;
+  }
+
+  .console3-text p {
+    text-align: center;
+    padding: 0 50px;
+  }
+
+  .console3-text a {
+    margin-top: 20px;
+    padding: 10px 60px;
+    border-radius: 0px 60px;
+  }
+
+  .console4 img {
+    width: 400px;
+    height: 355px;
+  }
+
+  .console4 {
+    min-height: 300px;
+    width: 100%;
+    display: block;
+  }
+
+  .console4-button1 {
+    margin: 50px auto 20px auto;
+    width: 38%;
+  }
+
+  .console4-button2 {
+    margin: 0 auto 20px auto;
+    width: 38%;
+  }
+
+  .console4-button3 {
+    margin: 0px auto 20px auto;
+    width: 38%;
+  }
+
+  .console4-button4 {
+    margin: 0 auto 20px auto;
+    width: 38%;
+  }
+
+  .console4-text h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 0 50px;
+  }
+
+  .console4-text p {
+    text-align: center;
+    padding: 0 50px;
+  }
+
+  .console4-text a {
+    margin-top: 20px;
+    padding: 10px 60px;
+    border-radius: 0px 60px;
+  }
+
+  .console5 img {
+    width: 400px;
+    height: 300px;
+  }
+
+  .console5 {
+    min-height: 300px;
+    width: 100%;
+    display: block;
+  }
+
+  .console5-button1 {
+    margin: 50px auto 20px auto;
+    width: 44%;
+  }
+
+  .console5-button2 {
+    margin: 0 auto 20px auto;
+    width: 44%;
+  }
+
+  .console5-button3 {
+    margin: 0px auto 20px auto;
+    width: 44%;
+  }
+
+  .console5-button4 {
+    margin: 0 auto 20px auto;
+    width: 44%;
+  }
+
+  .console5-text h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 0 50px;
+  }
+
+  .console5-text p {
+    text-align: center;
+    padding: 0 50px;
+  }
+
+  .console5-text a {
+    margin-top: 20px;
+    padding: 10px 60px;
+    border-radius: 0px 60px;
+  }
+
+  .console6 img {
+    width: 400px;
+    height: 200px;
+  }
+
+  .console6 {
+    min-height: 300px;
+    width: 100%;
+    display: block;
+  }
+
+  .console6-button1 {
+    margin: 50px auto 20px auto;
+    width: 40%;
+  }
+
+  .console6-button2 {
+    margin: 0 auto 20px auto;
+    width: 40%;
+  }
+
+  .console6-button3 {
+    margin: 0px auto 20px auto;
+    width: 40%;
+  }
+
+  .console6-button4 {
+    margin: 0 auto 20px auto;
+    width: 40%;
+  }
+
+  .console6-text h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 0 50px;
+  }
+
+  .console6-text p {
+    text-align: center;
+    padding: 0 50px;
+  }
+
+  .console6-text a {
+    margin-top: 20px;
+    padding: 10px 60px;
+    border-radius: 0px 60px;
+  }
+
+  .console7 img {
+    width: 400px;
+    height: 355px;
+  }
+
+  .console7 {
+    min-height: 300px;
+    width: 100%;
+    display: block;
+  }
+
+  .console7-button1 {
+    margin: 50px auto 20px auto;
+    width: 38%;
+  }
+
+  .console7-button2 {
+    margin: 0 auto 20px auto;
+    width: 38%;
+  }
+
+  .console7-button3 {
+    margin: 0px auto 20px auto;
+    width: 38%;
+  }
+
+  .console7-button4 {
+    margin: 0 auto 20px auto;
+    width: 38%;
+  }
+
+  .console7-text h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 0 50px;
+  }
+
+  .console7-text p {
+    text-align: center;
+    padding: 0 50px;
+  }
+
+  .console7-text a {
+    margin-top: 20px;
+    padding: 10px 60px;
+    border-radius: 0px 60px;
+  }
+
+  .console8 img {
+    width: 400px;
+    height: 355px;
+  }
+
+  .console8 {
+    min-height: 300px;
+    width: 100%;
+    display: block;
+  }
+
+  .console8-button1 {
+    margin: 50px auto 20px auto;
+    width: 62%;
+  }
+
+  .console8-button2 {
+    margin: 0 auto 20px auto;
+    width: 62%;
+  }
+
+  .console8-text h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 0 50px;
+  }
+
+  .console8-text p {
+    text-align: center;
+    padding: 0 50px;
+  }
+
+  .console8-text a {
+    margin-top: 20px;
+    padding: 10px 60px;
+    border-radius: 0px 60px;
+  }
+
+  /* Accessory Section */
+  .accessory1 {
+    margin-top: 50px;
+  }
+
+  .accessory1 img {
+    width: 342px;
+    height: 270px;
+  }
+
+  .accessory2 {
+    min-height: 300px;
+    width: 83%;
+    margin: 0 auto;
+  }
+
+  .accessory2 img {
+    width: 342px;
+    height: 300px;
+  }
+
+  .accessory3 {
+    min-height: 300px;
+    width: 83%;
+    margin: 0 auto;
+  }
+
+  .accessory3 img {
+    width: 342px;
+    height: 300px;
+  }
+
+  .accessory3-text h1 {
+    padding: 0 50px;
+  }
+
+  .accessory4 {
+    display: block;
+    min-height: 300px;
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .accessory4 img {
+    width: 342px;
+    height: 300px;
+  }
+
+  .accessory4-button1 {
+    margin: 50px auto 20px auto;
+    width: 39%;
+  }
+
+  .accessory4-button2 {
+    margin: 0 auto 20px auto;
+    width: 39%;
+  }
+
+  .accessory4-button3 {
+    margin: 0 auto 20px auto;
+    width: 39%;
+  }
+
+  .accessory5 {
+    display: block;
+    min-height: 300px;
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .accessory5 img {
+    width: 370px;
+    height: 250px;
+  }
+
+  .accessory5-button1 {
+    margin: 50px auto 20px auto;
+    width: 39%;
+  }
+
+  .accessory5-button2 {
+    margin: 0 auto 20px auto;
+    width: 39%;
+  }
+
+  .accessory5-button3 {
+    margin: 0 auto 20px auto;
+    width: 39%;
+  }
+
+  .accessory5-button4 {
+    margin: 0 auto 20px auto;
+    width: 39%;
+  }
+
+  .accessory6 img {
+    width: 342px;
+    height: 270px;
+  }
+
+  .accessory8 img {
+    width: 342px;
+    height: 250px;
+  }
+
+  .accessory9 img {
+    width: 342px;
+    height: 230px;
+  }
+
+  /* Red Contact Bar */
+  .contact-image{
+    display: none;
+  }
+
+  .contact-border {
+    background-color: red;
+    margin-bottom: 50px;
+    background-color: #e60012;
+    width: 1000px;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+  .contact-border h1{
+text-align: center;
+  }
+
+  .contact-header p {
+    padding: 0 30px 50px;
+    font-size: 25px;
+  }
+}
+
+/* CSS Reset Personal code */
+
+/* img:hover {
+  transition: transform 0s;
+  transform: scale(1.2);
+} */
+
+/* img {
+  -webkit-animation: mover 2s infinite  alternate;
+  animation: mover 2s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+} */
