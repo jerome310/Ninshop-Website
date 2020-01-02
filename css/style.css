@@ -29,6 +29,10 @@ header a {
   text-decoration: none;
 }
 
+header img{
+  width:150px;
+}
+
 .mob-wrapper {
   display: none;
 }
@@ -172,7 +176,7 @@ main img:hover {
 }
 
 .nin-switch p {
-  padding-bottom: 40px;
+  padding:0 20px 40px;
 }
 
 .nin-2ds p {
@@ -180,7 +184,7 @@ main img:hover {
 }
 
 .nin-3ds p {
-  padding-bottom: 40px;
+  padding:0 20px 40px;
 }
 
 .nin-switch a {
@@ -233,6 +237,16 @@ div .link img:hover {
   padding-top: 100px;
   padding-right: 100px;
   padding-left: 100px;
+  text-align: center;
+  color: white;
+}
+
+.bestsellers-heading2 {
+  min-height: 300px;
+  padding-top: 200px;
+  margin:0 auto;
+  /* padding-right: 200px;
+  padding-left: 100px; */
   text-align: center;
   color: white;
 }
@@ -666,10 +680,6 @@ video {
   }
 }
 
-.turtle-bottom {
-  /* width:73px;
-  height:72.656px; */
-}
 
 .giftshop-heading {
   font-size: 25px;
@@ -1006,6 +1016,10 @@ footer p {
   width: 45%;
   display: flex;
   flex-wrap: wrap;
+}
+
+.console1-head-image img{
+  width:100px;
 }
 
 .console1-button1 {
@@ -2807,6 +2821,11 @@ textarea:focus {
     text-align: center;
   }
 
+  .bestsellers-heading2 {
+    padding: 20px;
+    text-align: center;
+  }
+
   .link {
     display: block;
     text-align: center;
@@ -2891,7 +2910,9 @@ textarea:focus {
   }
 
   .console1 img {
-    width: 100%;
+    width: 70%;
+    margin-left:auto;
+    margin-right:auto;
   }
 
   .console1-button1 {
@@ -2941,7 +2962,9 @@ textarea:focus {
   }
 
   .console2 img {
-    width: 100%;
+    width: 70%;
+    margin-left:auto;
+    margin-right:auto;
   }
 
   .console2-button1 {
@@ -2991,7 +3014,9 @@ textarea:focus {
   }
 
   .console3 img {
-    width: 100%;
+    width: 70%;
+    margin-left:auto;
+    margin-right:auto;
   }
 
   .console3-button1 {
@@ -3041,7 +3066,9 @@ textarea:focus {
   }
 
   .console4 img {
-    width: 100%;
+    width: 70%;
+    margin-left:auto;
+    margin-right:auto;
   }
 
   .console4-button1 {
@@ -3095,8 +3122,9 @@ textarea:focus {
   }
 
   .console5 img {
-    width: 100%;
-    margin-left: auto;
+    width: 70%;
+    margin-left:auto;
+    margin-right:auto;
   }
 
   .console5-button1 {
@@ -3209,7 +3237,9 @@ textarea:focus {
   }
 
   .console7 img {
-    width:100%;
+    width: 70%;
+    margin-left:auto;
+    margin-right:auto;
   }
 
   .console7-button1 {
@@ -3263,7 +3293,9 @@ textarea:focus {
   }
 
   .console8 img {
-    width:100%;
+    width: 70%;
+    margin-left:auto;
+    margin-right:auto;
   }
 
   .console8-button1 {
@@ -3606,7 +3638,7 @@ textarea:focus {
 }
 
 /* Mobile */
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   header {
     padding-bottom: 60px;
   }
@@ -3640,6 +3672,10 @@ textarea:focus {
   }
   /* End of the hamburger menu */
 
+  .Console-title p {
+    padding: 20px 30px 0;
+  }
+
   .handhelds {
     display: block;
   }
@@ -3665,7 +3701,12 @@ textarea:focus {
   }
 
   .bestsellers-heading p{
-    padding: 30px;
+    padding: 35px;
+  }
+
+  .bestsellers-heading2 {
+    padding: 10px;
+    text-align: center;
   }
 
   .game1 {
@@ -3694,11 +3735,16 @@ textarea:focus {
   }
 
   .left-monsterbutton {
-    margin: 15px 20px 10px 30px;
+    /* margin: 15px 20px 10px 30px; */
+    margin-right: auto;
+    margin-left:20%;
   }
 
   .right-monsterbutton {
-    margin: 15px 20px 10px 20px;
+    /* margin: 15px 20px 10px 20px; */
+    margin-left: auto;
+    margin-right:18%;
+    margin-bottom:15px;
   }
 
   .left-monster-navimage {
@@ -3730,13 +3776,17 @@ textarea:focus {
   }
 
   .turtle-bottom {
-    margin-left: 23px;
-    width: 64%;
+    margin-left: auto;
+    width: 73%;
   }
 
   .mario-image {
-    width: 100%;
-  }
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 
   /* Game Handheld Section */
   .games-heading {
@@ -3744,7 +3794,7 @@ textarea:focus {
   }
 
   .console1 img {
-   width:100%;
+    width: 100%;
   }
 
   .console1 {
@@ -3755,22 +3805,22 @@ textarea:focus {
 
   .console1-button1 {
     margin: 50px auto 20px auto;
-    width: 38%;
+    width: 32%;
   }
 
   .console1-button2 {
     margin: 0 auto 20px auto;
-    width: 38%;
+    width: 32%;
   }
 
   .console1-button3 {
     margin: 0px auto 20px auto;
-    width: 38%;
+    width: 32%;
   }
 
   .console1-button4 {
     margin: 0 auto 20px auto;
-    width: 38%;
+    width: 32%;
   }
 
   .console1-text h1 {
@@ -3791,8 +3841,7 @@ textarea:focus {
   }
 
   .console2 img {
-    width: 400px;
-    height: 355px;
+   width:100%;
   }
 
   .console2 {
@@ -3803,22 +3852,22 @@ textarea:focus {
 
   .console2-button1 {
     margin: 50px auto 20px auto;
-    width: 38%;
+    width: 32%;
   }
 
   .console2-button2 {
     margin: 0 auto 20px auto;
-    width: 38%;
+    width: 32%;
   }
 
   .console2-button3 {
     margin: 0px auto 20px auto;
-    width: 38%;
+    width: 32%;
   }
 
   .console2-button4 {
     margin: 0 auto 20px auto;
-    width: 38%;
+    width: 32%;
   }
 
   .console2-text h1 {
@@ -3839,8 +3888,7 @@ textarea:focus {
   }
 
   .console3 img {
-    width: 400px;
-    height: 355px;
+    width:100%;
   }
 
   .console3 {
@@ -3851,22 +3899,22 @@ textarea:focus {
 
   .console3-button1 {
     margin: 50px auto 20px auto;
-    width: 38%;
+    width: 32%;
   }
 
   .console3-button2 {
     margin: 0 auto 20px auto;
-    width: 38%;
+    width: 32%;
   }
 
   .console3-button3 {
     margin: 0px auto 20px auto;
-    width: 38%;
+    width: 32%;
   }
 
   .console3-button4 {
     margin: 0 auto 20px auto;
-    width: 38%;
+    width: 32%;
   }
 
   .console3-text h1 {
@@ -3887,8 +3935,7 @@ textarea:focus {
   }
 
   .console4 img {
-    width: 400px;
-    height: 355px;
+    width:100%;
   }
 
   .console4 {
@@ -3899,22 +3946,22 @@ textarea:focus {
 
   .console4-button1 {
     margin: 50px auto 20px auto;
-    width: 38%;
+    width: 32%;
   }
 
   .console4-button2 {
     margin: 0 auto 20px auto;
-    width: 38%;
+    width: 32%;
   }
 
   .console4-button3 {
     margin: 0px auto 20px auto;
-    width: 38%;
+    width: 32%;
   }
 
   .console4-button4 {
     margin: 0 auto 20px auto;
-    width: 38%;
+    width: 32%;
   }
 
   .console4-text h1 {
@@ -3934,35 +3981,34 @@ textarea:focus {
     border-radius: 0px 60px;
   }
 
-  .console5 img {
-    width: 400px;
-    height: 300px;
-  }
-
   .console5 {
     min-height: 300px;
     width: 100%;
     display: block;
   }
 
+  .console5 img {
+    width:100%;
+  }
+
   .console5-button1 {
     margin: 50px auto 20px auto;
-    width: 44%;
+    width: 37%;
   }
 
   .console5-button2 {
     margin: 0 auto 20px auto;
-    width: 44%;
+    width: 37%;
   }
 
   .console5-button3 {
     margin: 0px auto 20px auto;
-    width: 44%;
+    width: 37%;
   }
 
   .console5-button4 {
     margin: 0 auto 20px auto;
-    width: 44%;
+    width: 37%;
   }
 
   .console5-text h1 {
@@ -3982,35 +4028,45 @@ textarea:focus {
     border-radius: 0px 60px;
   }
 
-  .console6 img {
-    width: 400px;
-    height: 200px;
-  }
-
   .console6 {
     min-height: 300px;
     width: 100%;
     display: block;
   }
 
+  .console6-single-image {
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
   .console6-button1 {
     margin: 50px auto 20px auto;
-    width: 40%;
+    padding:0 0 0 10px;
+    width: 34%;
   }
+
+  .console6-button1 a img {
+    width: 160px;
+    height: 100px;
+}
 
   .console6-button2 {
     margin: 0 auto 20px auto;
-    width: 40%;
+    width: 34%;
+    padding:0 0 0 5px;
   }
 
   .console6-button3 {
     margin: 0px auto 20px auto;
-    width: 40%;
+    width: 34%;
+    padding:0 0 0 5px;
   }
 
   .console6-button4 {
     margin: 0 auto 20px auto;
-    width: 40%;
+    width: 34%;
+    padding:0 0 0 5px;
   }
 
   .console6-text h1 {
@@ -4030,35 +4086,34 @@ textarea:focus {
     border-radius: 0px 60px;
   }
 
-  .console7 img {
-    width: 400px;
-    height: 355px;
-  }
-
   .console7 {
     min-height: 300px;
     width: 100%;
     display: block;
   }
 
+  .console7 img {
+    width: 100%;
+  }
+
   .console7-button1 {
     margin: 50px auto 20px auto;
-    width: 38%;
+    width: 32%;
   }
 
   .console7-button2 {
     margin: 0 auto 20px auto;
-    width: 38%;
+    width: 32%;
   }
 
   .console7-button3 {
     margin: 0px auto 20px auto;
-    width: 38%;
+    width: 32%;
   }
 
   .console7-button4 {
     margin: 0 auto 20px auto;
-    width: 38%;
+    width: 32%;
   }
 
   .console7-text h1 {
@@ -4078,25 +4133,24 @@ textarea:focus {
     border-radius: 0px 60px;
   }
 
-  .console8 img {
-    width: 400px;
-    height: 355px;
-  }
-
   .console8 {
     min-height: 300px;
     width: 100%;
     display: block;
   }
 
+  .console8 img {
+    width: 100%;
+  }
+
   .console8-button1 {
     margin: 50px auto 20px auto;
-    width: 62%;
+    width: 51%;
   }
 
   .console8-button2 {
     margin: 0 auto 20px auto;
-    width: 62%;
+    width: 51%;
   }
 
   .console8-text h1 {
@@ -4133,8 +4187,7 @@ textarea:focus {
   }
 
   .accessory2 img {
-    width: 342px;
-    height: 300px;
+    width:100%;
   }
 
   .accessory3 {
@@ -4144,8 +4197,7 @@ textarea:focus {
   }
 
   .accessory3 img {
-    width: 342px;
-    height: 300px;
+    width:100%;
   }
 
   .accessory3-text h1 {
@@ -4160,23 +4212,22 @@ textarea:focus {
   }
 
   .accessory4 img {
-    width: 342px;
-    height: 300px;
+    width:100%;
   }
 
   .accessory4-button1 {
     margin: 50px auto 20px auto;
-    width: 39%;
+    width: 32%;
   }
 
   .accessory4-button2 {
     margin: 0 auto 20px auto;
-    width: 39%;
+    width: 32%;
   }
 
   .accessory4-button3 {
     margin: 0 auto 20px auto;
-    width: 39%;
+    width: 32%;
   }
 
   .accessory5 {
@@ -4187,28 +4238,27 @@ textarea:focus {
   }
 
   .accessory5 img {
-    width: 370px;
-    height: 250px;
+    width: 100%;
   }
 
   .accessory5-button1 {
     margin: 50px auto 20px auto;
-    width: 39%;
+    width: 31%;
   }
 
   .accessory5-button2 {
     margin: 0 auto 20px auto;
-    width: 39%;
+    width: 31%;
   }
 
   .accessory5-button3 {
     margin: 0 auto 20px auto;
-    width: 39%;
+    width: 31%;
   }
 
   .accessory5-button4 {
     margin: 0 auto 20px auto;
-    width: 39%;
+    width: 31%;
   }
 
   .accessory6 img {
