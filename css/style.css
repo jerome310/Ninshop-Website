@@ -593,6 +593,7 @@ video {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
 }
 
 .lugi-character img {
@@ -657,9 +658,10 @@ video {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
+  text-align: center;
 }
 
-.turtle-character img {
+.turtle-div-iso-image img {
   -webkit-animation: mover 2s infinite alternate;
   animation: mover 2s infinite alternate;
 }
@@ -709,7 +711,6 @@ video {
   /* border: 1px solid #84fab0; */
   padding: 10px 15px;
   border-radius: 20px;
-  margin-left: 50px;
 }
 
 .mario-image {
@@ -720,6 +721,7 @@ video {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
 }
 
 .mario-character img {
@@ -773,7 +775,6 @@ video {
   /* border: 1px solid #84fab0; */
   padding: 10px 15px;
   border-radius: 20px;
-  margin-left: 40px;
 }
 
 /* Footer Section */
@@ -3728,6 +3729,20 @@ textarea:focus {
 
   .navbar-text {
     display: block;
+    
+  }
+
+  .pokemon-button1{
+    padding: 50px 0px 0px 10px;
+  }
+
+  .pokemon-button2{
+    padding: 50px 0px 0px 10px;
+  }
+
+  .navbar-text a{
+   margin: 0 auto;
+   float:none;
   }
 
   .navbar-text h1 {
@@ -3777,7 +3792,6 @@ textarea:focus {
 
   .turtle-bottom {
     margin-left: auto;
-    width: 73%;
   }
 
   .mario-image {
