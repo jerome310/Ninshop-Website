@@ -1887,7 +1887,7 @@ footer p {
 .accessory4 {
   min-height: 300px;
   /* background-color:rgb(0, 0, 0); */
-  width: 45%;
+  width: 40%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -1901,7 +1901,7 @@ footer p {
   /* background-color:yellow; */
   min-height: 50px;
   border: 1px solid #727272;
-  margin: 50px 5px 5px 15px;
+  margin: 50px 5px 5px 20px;
 }
 
 .accessory4-button1 a img {
@@ -1913,7 +1913,7 @@ footer p {
   /* background-color:yellow; */
   min-height: 50px;
   border: 1px solid #727272;
-  margin: 50px 5px 5px 3px;
+  margin: 50px 5px 5px 10px;
 }
 
 .accessory4-button2 a img {
@@ -1925,7 +1925,7 @@ footer p {
   /* background-color:yellow; */
   min-height: 50px;
   border: 1px solid #727272;
-  margin: 50px 5px 5px 3px;
+  margin: 50px 5px 5px 10px;
 }
 
 .accessory4-button3 a img {
@@ -1970,7 +1970,7 @@ footer p {
 .accessory5 {
   min-height: 300px;
   /* background-color:rgb(0, 0, 0); */
-  width: 44%;
+  width: 38%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -1984,7 +1984,7 @@ footer p {
   /* background-color:yellow; */
   min-height: 50px;
   border: 1px solid #727272;
-  margin: 50px 5px 5px 3px;
+  margin: 50px 5px 5px 10px;
 }
 
 .accessory5-button1 a img {
@@ -1996,7 +1996,7 @@ footer p {
   /* background-color:yellow; */
   min-height: 50px;
   border: 1px solid #727272;
-  margin: 50px 5px 5px 3px;
+  margin: 50px 5px 5px 10px;
 }
 
 .accessory5-button2 a img {
@@ -2008,7 +2008,7 @@ footer p {
   /* background-color:yellow; */
   min-height: 50px;
   border: 1px solid #727272;
-  margin: 50px 5px 5px 3px;
+  margin: 50px 5px 5px 11px;
 }
 
 .accessory5-button3 a img {
@@ -2020,7 +2020,7 @@ footer p {
   /* background-color:yellow; */
   min-height: 50px;
   border: 1px solid #727272;
-  margin: 50px 5px 5px 3px;
+  margin: 50px 5px 5px 10px;
 }
 
 .accessory5-button4 a img {
