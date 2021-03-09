@@ -1136,9 +1136,9 @@ footer p {
   font-size: 20px;
   font-weight: bolder;
   color: white;
-  background-image: linear-gradient(#4ab7d8, #e70011);
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
   padding: 10px 60px;
-  border-radius: 0px 60px;
+  border-radius: 30px;
 }
 
 /*END GAME CONSOLE HANDHELD 1 */
@@ -1251,9 +1251,9 @@ footer p {
   font-size: 20px;
   font-weight: bolder;
   color: white;
-  background-image: linear-gradient(#020202, #757575);
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
   padding: 10px 60px;
-  border-radius: 0px 60px;
+  border-radius: 30px;
 }
 
 /*END GAME CONSOLE HANDHELD 2 */
@@ -1366,9 +1366,9 @@ footer p {
   font-size: 20px;
   font-weight: bolder;
   color: white;
-  background-image: linear-gradient(#ff0000, #2600ff);
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
   padding: 10px 60px;
-  border-radius: 0px 60px;
+  border-radius: 30px;
 }
 
 /*END GAME CONSOLE HANDHELD 3 */
@@ -1481,9 +1481,9 @@ footer p {
   font-size: 20px;
   font-weight: bolder;
   color: white;
-  background-image: linear-gradient(#000000, #fbff00);
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
   padding: 10px 60px;
-  border-radius: 0px 60px;
+  border-radius: 30px;
 }
 
 /*END GAME CONSOLE HANDHELD 4 */
@@ -1601,9 +1601,9 @@ footer p {
   font-size: 20px;
   font-weight: bolder;
   color: white;
-  background-image: linear-gradient(#fffdfd, #00ccff);
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
   padding: 10px 60px;
-  border-radius: 0px 60px;
+  border-radius: 30px;
 }
 
 /*END GAME CONSOLE HANDHELD 5 */
@@ -1724,9 +1724,9 @@ footer p {
   font-size: 20px;
   font-weight: bolder;
   color: white;
-  background-image: linear-gradient(#fffdfd, #3d3d3d);
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
   padding: 10px 60px;
-  border-radius: 0px 60px;
+  border-radius: 30px;
 }
 
 /*END GAME CONSOLE HANDHELD 6 */
@@ -2010,7 +2010,7 @@ footer p {
   color: white;
   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
   padding: 10px 60px;
-  border-radius: 0px 60px;
+  border-radius: 30px;
 }
 /*END ACCESSORY 1 SECTION 1  */
 
@@ -2063,7 +2063,7 @@ footer p {
   color: white;
   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
   padding: 10px 60px;
-  border-radius: 0px 60px;
+  border-radius: 30px;
 }
 
 /*END ACCESSORY 2 SEECTION 2  */
@@ -2117,7 +2117,7 @@ footer p {
   color: white;
   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
   padding: 10px 60px;
-  border-radius: 0px 60px;
+  border-radius: 30px;
 }
 
 /*END ACCESSORY 3 SEECTION 3  */
@@ -2207,7 +2207,7 @@ footer p {
   color: white;
   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
   padding: 10px 60px;
-  border-radius: 0px 60px;
+  border-radius: 30px;
 }
 
 /*END ACCESSORY 4 SEECTION 4  */
@@ -2309,7 +2309,7 @@ footer p {
   color: white;
   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
   padding: 10px 60px;
-  border-radius: 0px 60px;
+  border-radius: 30px;
 }
 
 /*END ACCESSORY 5 SEECTION 5  */
@@ -2363,7 +2363,7 @@ footer p {
   color: white;
   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
   padding: 10px 60px;
-  border-radius: 0px 60px;
+  border-radius: 30px;
 }
 
 /*END ACCESSORY 6 SECTION 6  */
@@ -2412,7 +2412,7 @@ footer p {
   color: white;
   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
   padding: 10px 60px;
-  border-radius: 0px 60px;
+  border-radius: 30px;
 }
 
 /*END ACCESSORY 7 SECTION 7  */
@@ -2466,7 +2466,7 @@ footer p {
   color: white;
   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
   padding: 10px 60px;
-  border-radius: 0px 60px;
+  border-radius: 30px;
 }
 
 /*END ACCESSORY 8 SECTION 8  */
@@ -2520,7 +2520,7 @@ footer p {
   color: white;
   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
   padding: 10px 60px;
-  border-radius: 0px 60px;
+  border-radius: 30px;
 }
 
 .accessoryAppear {
@@ -2592,9 +2592,10 @@ footer p {
 /* Start of Forms Inputs */
 
 input[type="text"] {
+  margin: 0 auto;
   font-weight: 700;
   display: block;
-  width: 150px;
+  width: 30%;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
@@ -2615,6 +2616,8 @@ input[type="text"]:focus {
 
 .firstname {
   margin: 0 0 20px 20px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
 }
 
 /* End Firstname Section */
@@ -2623,6 +2626,8 @@ input[type="text"]:focus {
 
 .lastname {
   margin: 0 0 20px 20px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
 }
 
 /* End Lastname Section */
@@ -2631,6 +2636,8 @@ input[type="text"]:focus {
 
 .phonenumber {
   margin: 0 0 20px 20px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
 }
 
 /* End Phone Number Section */
@@ -2639,6 +2646,8 @@ input[type="text"]:focus {
 
 .email {
   margin: 0 0 20px 20px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
 }
 
 /* End Email Section */
@@ -2654,18 +2663,23 @@ input[type="text"]:focus {
 /*Start Message Section  */
 
 textarea {
-  font-weight: 700;
+  margin: 0 auto;
   display: block;
-  width: 150px;
+  width: 30%;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
-  font-size: 16px;
   background-color: white;
+  padding: 10px 20px 12px 40px;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
   height: 150px;
   overflow: hidden;
+}
+
+textarea[type="textarea"] {
+  font-weight: 900;
+  font-size: 18px;
 }
 
 textarea:focus {
@@ -2678,6 +2692,8 @@ textarea:focus {
 
 .submit-button {
   margin: 40px 0 40px 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .submit-button a {
